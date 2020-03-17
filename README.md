@@ -2,6 +2,11 @@
 
 ## 16 Step sequencer to make your 808 dreams reality
 
+- A user can click each square to activate the sound on that step
+- A user can stop and start the sequence
+
+![alt text](/src/assets/preview.png 'Preview')
+
 ### Use the app
 
 https://algobabe.herokuapp.com/
