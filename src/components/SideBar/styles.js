@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
 `;
 
 export const GithubImg = styled.img`
-  width: 50px;
+  width: 40px;
   padding: 50px;
   &:hover {
     opacity: 0.8;

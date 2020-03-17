@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -18,11 +18,11 @@ export const TitleContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 3.5em;
+  font-size: 2.5em;
 `;
 
 export const Subtitle = styled.div`
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 2;
 `;
 
