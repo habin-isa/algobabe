@@ -1,6 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 import { darken } from 'polished';
+import { bool } from 'prop-types';
 
 const getBackground = (activated, triggered) => {
   switch (true) {
@@ -29,5 +29,15 @@ const Cell = styled.div.attrs(({ activated, triggered }) => ({
   margin: 2px;
   cursor: pointer;
 `;
+
+Cell.propTypes = {
+  activated: bool,
+  triggered: bool
+};
+
+Cell.defaultProps = {
+  activated: false,
+  triggered: false
+};
 
 export default Cell;

@@ -28,3 +28,9 @@ https://algobabe.herokuapp.com/
 - Axios
 - Babel/EsLint
 - 808 trap sounds pack
+
+### Improvement ideas
+
+- Option to toggle sound pack
+- Display step sample
+- Change tempo

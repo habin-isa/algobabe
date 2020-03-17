@@ -1,6 +1,7 @@
 import React from 'react';
 import * as S from './styles';
 import Cell from '../Cell';
+import { array, func } from 'prop-types';
 
 const Grid = ({ sequence, toggleStep }) => (
   <S.Frame rows={8} columns={16}>
@@ -18,5 +19,15 @@ const Grid = ({ sequence, toggleStep }) => (
     )}
   </S.Frame>
 );
+
+Grid.propTypes = {
+  sequence: array,
+  toggleStep: func
+};
+
+Grid.defaultProps = {
+  sequence: [],
+  toggleStep: () => {}
+};
 
 export default Grid;

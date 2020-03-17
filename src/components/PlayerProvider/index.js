@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Tone from 'tone';
 import kick from '../../sounds/kick.wav';
 import clap from '../../sounds/clap.wav';
