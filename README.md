@@ -1,6 +1,6 @@
 # Algobabe
 
-## Step sequencer using 808 trap sounds pack to make your 808 dreams reality
+## 16 Step sequencer to make your 808 dreams reality
 
 ### Use the app
 
@@ -22,3 +22,4 @@ https://algobabe.herokuapp.com/
 - Jest
 - Axios
 - Babel/EsLint
+- 808 trap sounds pack

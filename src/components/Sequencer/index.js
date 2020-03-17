@@ -5,8 +5,12 @@ import PlayButton from '../PlayButton';
 
 const steps = 16;
 const initialCellState = { triggered: false, activated: false };
-const lineMap = ['BD', 'CP', 'CH', 'OH'];
+const lineMap = ['BD', 'CP', 'CH', 'OH', 'BS', 'BH', 'BK', 'TT'];
 const initialState = [
+  new Array(16).fill(initialCellState),
+  new Array(16).fill(initialCellState),
+  new Array(16).fill(initialCellState),
+  new Array(16).fill(initialCellState),
   new Array(16).fill(initialCellState),
   new Array(16).fill(initialCellState),
   new Array(16).fill(initialCellState),
