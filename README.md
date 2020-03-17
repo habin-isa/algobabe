@@ -1,8 +1,10 @@
 # Algobabe
 
-### Step sequencer using 808 trap sounds pack
+## Step sequencer using 808 trap sounds pack to make your 808 dreams reality
 
-### Make all your 808 dreams a reality
+### Use the app
+
+https://algobabe.herokuapp.com/
 
 ### To run the project
 

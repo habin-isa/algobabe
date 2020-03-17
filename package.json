@@ -9,9 +9,11 @@
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "path": "^0.12.7",
+    "polished": "^3.4.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "tone": "^13.8.25"
   },
   "scripts": {
     "start": "node server.js",
