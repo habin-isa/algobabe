@@ -2,17 +2,18 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Button = styled.button`
-  padding: 0.75em 2em;
   outline: none;
-  background-color: #27ae60;
+  background-color: white;
   border: none;
-  border-radius: 5px;
-  color: white;
-  font-size: 1em;
-  margin: 0.5em;
+  color: #757575;
+  margin: 0.5em 0.5em 0.5em 0;
+  padding: 20px 25px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 4px;
 
   &:hover {
-    background: ${darken(0.2, '#27ae60')};
+    background: ${darken(0.1, '#ffe419')};
     cursor: pointer;
   }
 `;

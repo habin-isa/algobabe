@@ -5,13 +5,16 @@ import { darken } from 'polished';
 const getBackground = (activated, triggered) => {
   switch (true) {
     case activated && triggered:
-      return darken(0.2, '#65daa2');
+      return darken(0.2, '#ffe419');
     case activated && !triggered:
-      return '#65daa2';
+      // selected cells
+      return '#ffe419';
     case !activated && triggered:
-      return '#eef';
+      // bar running vertical along cells
+      return '#545454';
     default:
-      return '#f9f9f9';
+      // cell colour
+      return '#b5b5b5';
   }
 };
 
@@ -24,6 +27,7 @@ const Cell = styled.div.attrs(({ activated, triggered }) => ({
   grid-column: ${(props) => props.column};
   grid-row: ${(props) => props.row};
   margin: 2px;
+  cursor: pointer;
 `;
 
 export default Cell;
